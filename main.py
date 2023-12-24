@@ -27,6 +27,7 @@ for y in range(height):
 
     screen.blit(surface, (0, 0))
     pygame.display.flip()
+    print(f"The order of line: {y}.")
 
 pygame.image.save(screen, name)
 print(f"\nRandom image saved as {name}.")
